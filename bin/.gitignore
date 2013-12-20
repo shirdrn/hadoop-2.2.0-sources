@@ -1,0 +1,11 @@
+/META-INF
+/container-log4j.properties
+/core-default.xml
+/distcp-default.xml
+/hdfs-default.xml
+/mapred-default.xml
+/org
+/overview.html
+/webapps
+/yarn-default.xml
+/yarn-version-info.properties
