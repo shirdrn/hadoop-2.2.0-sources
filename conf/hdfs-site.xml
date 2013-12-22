@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+	<property>
+		<name>dfs.namenode.name.dir</name>
+		<value>/home/shirdrn/cloud/hadoop-2.2.0/hdfs/name</value>
+		<description>Path on the local filesystem where the NameNode stores
+			the namespace and transactions logs persistently.</description>
+	</property>
+	<property>
+		<name>dfs.datanode.data.dir</name>
+		<value>/home/shirdrn/cloud/hadoop-2.2.0/hdfs/data</value>
+		<description>Comma separated list of paths on the local filesystem of
+			a DataNode where it should store its blocks.</description>
+	</property>
+	<property>
+		<name>hadoop.tmp.dir</name>
+		<value>/home/shirdrn/cloud/hadoop-2.2.0/tmp/hadoop-${user.name}</value>
+		<description>A base for other temporary directories.</description>
+	</property>
+</configuration>

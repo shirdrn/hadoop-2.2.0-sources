@@ -26,6 +26,7 @@
 	<classpathentry kind="src" path="hadoop-gridmix-2.2.0-sources"/>
 	<classpathentry kind="src" path="hadoop-rumen-2.2.0-sources"/>
 	<classpathentry kind="src" path="hadoop-streaming-2.2.0-sources"/>
+	<classpathentry kind="src" path="conf"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
 	<classpathentry kind="lib" path="lib/activation-1.1.jar"/>
 	<classpathentry kind="lib" path="lib/annotations-api.jar"/>

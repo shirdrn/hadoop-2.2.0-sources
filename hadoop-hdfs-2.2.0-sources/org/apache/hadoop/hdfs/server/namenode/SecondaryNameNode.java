@@ -636,6 +636,7 @@ public class SecondaryNameNode implements Runnable {
    * @exception Exception if the filesystem does not exist.
    */
   public static void main(String[] argv) throws Exception {
+//	  System.setProperty("hadoop.home.dir", "/home/shirdrn/git/hadoop-2.2.0-sources/bin");
     CommandLineOpts opts = SecondaryNameNode.parseArgs(argv);
     if (opts == null) {
       LOG.fatal("Failed to parse options");

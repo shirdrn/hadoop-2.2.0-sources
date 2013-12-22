@@ -22,6 +22,7 @@ import com.google.common.annotations.VisibleForTesting;
 import com.google.common.base.Joiner;
 import com.google.common.base.Preconditions;
 import com.google.protobuf.BlockingService;
+
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.hadoop.classification.InterfaceAudience;
@@ -1851,6 +1852,7 @@ public class DataNode extends Configured
   }
   
   public static void main(String args[]) {
+//	  System.setProperty("hadoop.home.dir", "/home/shirdrn/git/hadoop-2.2.0-sources/bin");
     if (DFSUtil.parseHelpArgument(args, DataNode.USAGE, System.out, true)) {
       System.exit(0);
     }
