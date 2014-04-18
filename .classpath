@@ -107,5 +107,6 @@
 	<classpathentry kind="lib" path="lib/zookeeper-3.4.5.jar"/>
 	<classpathentry kind="lib" path="lib/ant.jar"/>
 	<classpathentry kind="lib" path="lib/hsqldb-j5-2.2.4.jar"/>
+	<classpathentry kind="lib" path="lib/metrics-annotation-2.2.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
